@@ -217,3 +217,26 @@ Once Application Insights is up and running, you can use it to monitor a broad a
 * User and session counts
 * Performance counters from Windows or Linux server machines, such as CPU, memory, and network usage
 Not only does Application Insights help you monitor the performance of your application, but you can also configure it to periodically send synthetic requests to your application, allowing you to check the status and monitor your application even during periods of low activity.
+
+## Supported Frameworks
+Azure HDInsight supports various frameworks for different use cases:
+- Hadoop:
+Batch processing of massive datasets.
+Use Case: Log analysis, data warehousing.
+- Spark:
+Real-time and in-memory analytics.
+Use Case: Machine learning, data streaming.
+- Kafka:
+Distributed messaging for real-time data ingestion.
+Use Case: Real-time analytics, IoT data streaming.
+- Hive:
+SQL-like querying on large datasets.
+Use Case: Data warehousing and reporting.
+- HBase:
+Non-relational, NoSQL database for low-latency workloads.
+Use Case: Fraud detection, real-time analytics.
+- Storm:
+Distributed real-time computation.
+Use Case: Sensor data analysis, real-time recommendations.
+
+## Azure Ecosystem
